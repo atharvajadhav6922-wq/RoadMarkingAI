@@ -1,0 +1,9 @@
+{
+  "_comment": "standards_config.json — Top-level configuration for the standards engine.",
+  "_note": "All standards data is in standards/irc35_rules.json. Modify that file to add/update rules.",
+  "enabled_standards": ["IRC:35-2015", "MoRTH Section 803"],
+  "verification_mandatory": true,
+  "display_name": "IRC / MoRTH Road Marking Standards (India)",
+  "authority_contact_note": "Contact the relevant State PWD / NHAI / ULB for current sanctioned drawings.",
+  "disclaimer": "Applicable IRC/MoRTH provisions require verification against the current official edition/amendments and sanctioned road layout."
+}

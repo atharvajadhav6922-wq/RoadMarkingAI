@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+
+# Data (uploaded/processed user files — do not commit)
+data/uploads/*
+data/processed/*
+data/reports/*
+data/gps/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/reports/.gitkeep
+!data/gps/.gitkeep
+
+# Models (large binary files — do not commit)
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.weights
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.dockerignore
+
+# Logs
+*.log

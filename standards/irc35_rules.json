@@ -1,0 +1,90 @@
+{
+  "_comment": "IRC/MoRTH road marking rules. IMPORTANT: Do NOT invent dimensions. All entries carry verification_required=true. Engineers must verify against the current official IRC:35-2015, MoRTH Specification for Road and Bridge Works (latest edition), and sanctioned drawings.",
+  "_warning": "Dimensions listed here are indicative and for reference only. Always verify against the current official edition and project-specific sanction.",
+  "rules": [
+    {
+      "id": "IRC35-CL-001",
+      "standard": "IRC:35-2015",
+      "section": "Clause 3 / 4",
+      "road_type": ["urban_arterial", "urban_sub_arterial"],
+      "marking_type": "centre_line",
+      "divided_undivided": "undivided",
+      "applicability_notes": "A broken white centre line is generally required on undivided two-lane or multi-lane urban roads. Refer IRC:35-2015 for exact dash/gap pattern applicable to the road type and speed.",
+      "engineering_note": "Verify the applicable dash length, gap length, and line width against Table 1 / relevant clause of IRC:35-2015 (latest amendment) and the sanctioned road layout.",
+      "verification_required": true,
+      "source_document": "IRC:35-2015 — Guidelines for Road Markings"
+    },
+    {
+      "id": "IRC35-CL-002",
+      "standard": "IRC:35-2015",
+      "section": "Clause 3 / 5",
+      "road_type": ["urban_arterial", "urban_sub_arterial", "collector_local"],
+      "marking_type": "lane_line",
+      "divided_undivided": "any",
+      "applicability_notes": "Lane dividing lines are required where carriageway is marked for multiple lanes. The line type (broken/solid) depends on the operational requirement.",
+      "engineering_note": "Verify lane width, line width, dash/gap dimensions, and colour (white) against IRC:35-2015 and the sanctioned drawing.",
+      "verification_required": true,
+      "source_document": "IRC:35-2015 — Guidelines for Road Markings"
+    },
+    {
+      "id": "IRC35-CL-003",
+      "standard": "IRC:35-2015",
+      "section": "Clause 6",
+      "road_type": ["urban_arterial", "urban_sub_arterial"],
+      "marking_type": "edge_line",
+      "divided_undivided": "any",
+      "applicability_notes": "A continuous white edge line is generally provided on the nearside edge of the carriageway on arterial roads. Check applicability for the specific road cross-section.",
+      "engineering_note": "Verify edge line width, offset from carriageway edge, and continuity requirements against IRC:35-2015 and sanctioned drawings.",
+      "verification_required": true,
+      "source_document": "IRC:35-2015 — Guidelines for Road Markings"
+    },
+    {
+      "id": "IRC35-CL-004",
+      "standard": "IRC:35-2015",
+      "section": "Clause 7",
+      "road_type": ["urban_arterial", "urban_sub_arterial", "collector_local"],
+      "marking_type": "stop_line",
+      "divided_undivided": "any",
+      "applicability_notes": "Stop lines are required at signalised and un-signalised intersections per IRC:35-2015 and IRC:93.",
+      "engineering_note": "Verify stop line width, setback from the give-way/signal line, and colour against the applicable standard and sanctioned intersection layout.",
+      "verification_required": true,
+      "source_document": "IRC:35-2015 — Guidelines for Road Markings; IRC:93"
+    },
+    {
+      "id": "IRC35-CL-005",
+      "standard": "IRC:35-2015",
+      "section": "Clause 8 / 9",
+      "road_type": ["urban_arterial", "urban_sub_arterial"],
+      "marking_type": "pedestrian_crosswalk",
+      "divided_undivided": "any",
+      "applicability_notes": "Zebra crossings or ladder markings are required at designated pedestrian crossing locations per IRC:35-2015.",
+      "engineering_note": "Verify number of stripes, stripe width, gap, total width, and offset from stop line against IRC:35-2015 and the sanctioned layout.",
+      "verification_required": true,
+      "source_document": "IRC:35-2015 — Guidelines for Road Markings"
+    },
+    {
+      "id": "MORTH-803-001",
+      "standard": "MoRTH Section 803",
+      "section": "Section 803",
+      "road_type": ["any"],
+      "marking_type": "general_road_marking",
+      "divided_undivided": "any",
+      "applicability_notes": "MoRTH Specifications for Road and Bridge Works, Section 803 specifies materials, retroreflectivity requirements, and application standards for road markings on National Highways and other central/state roads.",
+      "engineering_note": "Verify material specification (thermoplastic / paint / cold-plastic), retroreflectivity class, and application conditions against the current MoRTH Section 803 edition and the project specification.",
+      "verification_required": true,
+      "source_document": "MoRTH Specifications for Road and Bridge Works — Section 803 (latest edition)"
+    },
+    {
+      "id": "MORTH-803-002",
+      "standard": "MoRTH Section 803",
+      "section": "Section 803.3",
+      "road_type": ["any"],
+      "marking_type": "retroreflectivity",
+      "divided_undivided": "any",
+      "applicability_notes": "Road markings on national highways are generally required to meet minimum retroreflectivity levels. Retroreflectivity assessment is NOT possible through visual/camera inspection alone.",
+      "engineering_note": "Retroreflectivity must be measured by a certified retroreflectometer in the field. Camera-based assessment can indicate visibility only — not retroreflectivity compliance.",
+      "verification_required": true,
+      "source_document": "MoRTH Specifications for Road and Bridge Works — Section 803 (latest edition)"
+    }
+  ]
+}
